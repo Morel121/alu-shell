@@ -3,5 +3,5 @@
 
 while IFS=: read -r username password uid gid info home shell
 do
-   echo "The user $username is part of the $gid gang, lives in $home and rides $shell. User ID's place is protected by the passcode $password, more in fo about the user here: $info"
+   echo "The user $username is part of the $gid gang, lives in $home and rides $shell. UiD's place is protected by the passcode $password, more in fo about the user here: $info"
 done < /etc/passwd
