@@ -1,0 +1,10 @@
+!/usr/bin/env bash
+# Utilise des boucles imbriquées
+for h in {0..23}
+do
+    for m in {0..59}
+    do
+        echo "Hour: $h"
+        echo "$m"
+    done
+done
