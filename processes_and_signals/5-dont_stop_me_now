@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-"comment
-while true; do
-    echo "To infinity and beyond"
-    sleep 2
-done
+#comment
+pid=$(pgrep -f 4-to_infinity_and_beyond)
+
+if [ -n "$pid" ]; then
+    kill "$pid"
+fi    
